@@ -1,0 +1,17 @@
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.deps.json
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.runtimeconfig.json
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.runtimeconfig.dev.json
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.dll
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.Repository.pdb
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.csproj.AssemblyReference.cache
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.AssemblyInfoInputs.cache
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.AssemblyInfo.cs
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.csproj.CoreCompileInputs.cache
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.dll
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.pdb
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.genruntimeconfig.cache
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.DO.dll
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.EF.dll
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.EF.pdb
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\bin\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.Repository\obj\Debug\netcoreapp3.1\DAL.Repository.csproj.CopyComplete
