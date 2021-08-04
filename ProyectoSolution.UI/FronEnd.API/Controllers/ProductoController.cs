@@ -19,7 +19,7 @@ namespace FronEnd.API.Controllers
                 cl.BaseAddress = new Uri(Program.baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = await cl.GetAsync("api/GroupInvitations");
+                HttpResponseMessage res = await cl.GetAsync("api/Producto");
 
                 if (res.IsSuccessStatusCode)
                 {

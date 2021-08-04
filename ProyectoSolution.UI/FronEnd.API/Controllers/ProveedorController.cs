@@ -15,7 +15,21 @@ namespace FronEnd.API.Controllers
 
         public async Task<IActionResult> Index()
         {
-            return View(servicios.GetAllAsync());
+            List<Models.Proveedor> aux = new List<Models.Proveedor>();
+            using (var cl = new HttpClient())
+            {
+                cl.BaseAddress = new Uri(Program.baseurl);
+                cl.DefaultRequestHeaders.Clear();
+                cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+                HttpResponseMessage res = await cl.GetAsync("api/Proveedor");
+
+                if (res.IsSuccessStatusCode)
+                {
+                    var auxres = res.Content.ReadAsStringAsync().Result;
+                    aux = JsonConvert.DeserializeObject<List<Models.Proveedor>>(auxres);
+                }
+            }
+            return View(aux);
         }
 
         // GET: Proveedors/Details/5

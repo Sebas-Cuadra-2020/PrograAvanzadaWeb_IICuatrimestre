@@ -1,8 +1,10 @@
 ﻿using FronEnd.API.Servicios;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace FronEnd.API.Controllers
@@ -13,7 +15,21 @@ namespace FronEnd.API.Controllers
     
         public async Task<IActionResult> Index()
         {
-            return View(servicios.GetAllAsync());
+            List<Models.FamiliaProducto> aux = new List<Models.FamiliaProducto>();
+            using (var cl = new HttpClient())
+            {
+                cl.BaseAddress = new Uri(Program.baseurl);
+                cl.DefaultRequestHeaders.Clear();
+                cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+                HttpResponseMessage res = await cl.GetAsync("api/FamiliaProducto");
+
+                if (res.IsSuccessStatusCode)
+                {
+                    var auxres = res.Content.ReadAsStringAsync().Result;
+                    aux = JsonConvert.DeserializeObject<List<Models.FamiliaProducto>>(auxres);
+                }
+            }
+            return View(aux);
         }
 
         // GET: FamiliaProductoes/Details/5
