@@ -5749,11 +5749,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj",
+      "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\4-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj",
       "projectName": "DAL.EF",
-      "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj",
+      "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\4-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj",
       "packagesPath": "C:\\Users\\picad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\ProyectoFinal\\DAL.EF\\obj\\",
+      "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\4-8-21\\ProyectoFinal\\DAL.EF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5774,8 +5774,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\picad\\Desktop\\Proyecto programacion\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj": {
-              "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj"
+            "C:\\Users\\picad\\Desktop\\Proyecto programacion\\4-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj": {
+              "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\4-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj"
             }
           }
         }

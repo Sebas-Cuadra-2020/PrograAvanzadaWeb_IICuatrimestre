@@ -180,7 +180,7 @@ namespace API.W.Models
 
                 entity.Property(e => e.IdFamiliaProducto).HasColumnName("IdFamilia_Producto");
 
-                entity.Property(e => e.ImagenProducto).IsRequired();
+                //entity.Property(e => e.ImagenProducto).IsRequired();
 
                 entity.Property(e => e.NombreProducto)
                     .IsRequired()
