@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UKkGWyNk/Nq32AD6CqmH+ddpYPojcMhoWp6/8qZ9y9BZbFdqPHXhzd6XS0DDudc/Q10B13HRJGW6ayncIVhpRQ==",
+  "dgSpecHash": "/ufn9XbWZy+YJS9aETN9hMxbNXuwa6caINsBYI8GngZpJQYCZFAl7bWK6H6dHmceUrsxEGv7b9Lk8EM8P7EG7w==",
   "success": true,
-  "projectFilePath": "C:\\repositorieproyecto\\ProyectoSolution.UI\\FronEnd.API\\FronEnd.API.csproj",
+  "projectFilePath": "C:\\RepositorioProgramacionAvanzada\\ProyectoSolution.UI\\FronEnd.API\\FronEnd.API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Joshu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\picad\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -5763,19 +5763,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Joshu\\.nuget\\packages\\": {}
+    "C:\\Users\\picad\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repositorieproyecto\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj",
+      "projectUniqueName": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj",
       "projectName": "DAL.Repository",
-      "projectPath": "C:\\repositorieproyecto\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj",
-      "packagesPath": "C:\\Users\\Joshu\\.nuget\\packages\\",
-      "outputPath": "C:\\repositorieproyecto\\ProyectoFinal\\DAL.Repository\\obj\\",
+      "projectPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj",
+      "packagesPath": "C:\\Users\\picad\\.nuget\\packages\\",
+      "outputPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.Repository\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Joshu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\picad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5789,8 +5794,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\repositorieproyecto\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj": {
-              "projectPath": "C:\\repositorieproyecto\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj"
+            "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj": {
+              "projectPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj"
             }
           }
         }
@@ -5841,7 +5846,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
