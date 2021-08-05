@@ -36,6 +36,7 @@ C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL\obj\Debug\
 C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
 C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\repositorieproyecto\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
 C:\repositorieproyecto\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
 C:\repositorieproyecto\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
@@ -55,3 +56,24 @@ C:\repositorieproyecto\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.Copy
 C:\repositorieproyecto\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 C:\repositorieproyecto\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
 C:\repositorieproyecto\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+=======
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.DO.dll
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.EF.dll
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.Repository.dll
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.EF.pdb
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\bin\Debug\netcoreapp3.1\DAL.Repository.pdb
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+>>>>>>> ffccdef20d77639f20feedb006675dab05386e81
