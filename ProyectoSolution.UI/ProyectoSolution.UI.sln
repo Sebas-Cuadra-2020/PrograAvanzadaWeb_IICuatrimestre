@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontEnd.W", "FrontEnd.W\FrontEnd.W.csproj", "{48572999-A39E-4DBF-8344-78DE2A690D12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FronEnd.API", "FronEnd.API\FronEnd.API.csproj", "{8FE962B3-19D3-4EE0-99B4-67337592A189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FronEnd.API", "FronEnd.API\FronEnd.API.csproj", "{8FE962B3-19D3-4EE0-99B4-67337592A189}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -40,3 +40,24 @@ C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\BS\obj\Debug\n
 C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\BS\obj\Debug\netcoreapp3.1\BS.dll
 C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\BS\obj\Debug\netcoreapp3.1\BS.pdb
 C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\BS\obj\Debug\netcoreapp3.1\BS.genruntimeconfig.cache
+C:\repositorieproyecto\ProyectoFinal\BS\bin\Debug\netcoreapp3.1\BS.deps.json
+C:\repositorieproyecto\ProyectoFinal\BS\bin\Debug\netcoreapp3.1\BS.runtimeconfig.json
+C:\repositorieproyecto\ProyectoFinal\BS\bin\Debug\netcoreapp3.1\BS.runtimeconfig.dev.json
+C:\repositorieproyecto\ProyectoFinal\BS\bin\Debug\netcoreapp3.1\BS.dll
+C:\repositorieproyecto\ProyectoFinal\BS\bin\Debug\netcoreapp3.1\BS.pdb
+C:\repositorieproyecto\ProyectoFinal\BS\bin\Debug\netcoreapp3.1\DAL.dll
+C:\repositorieproyecto\ProyectoFinal\BS\bin\Debug\netcoreapp3.1\DAL.DO.dll
+C:\repositorieproyecto\ProyectoFinal\BS\bin\Debug\netcoreapp3.1\DAL.EF.dll
+C:\repositorieproyecto\ProyectoFinal\BS\bin\Debug\netcoreapp3.1\DAL.Repository.dll
+C:\repositorieproyecto\ProyectoFinal\BS\bin\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\repositorieproyecto\ProyectoFinal\BS\bin\Debug\netcoreapp3.1\DAL.EF.pdb
+C:\repositorieproyecto\ProyectoFinal\BS\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\repositorieproyecto\ProyectoFinal\BS\bin\Debug\netcoreapp3.1\DAL.Repository.pdb
+C:\repositorieproyecto\ProyectoFinal\BS\obj\Debug\netcoreapp3.1\BS.csproj.AssemblyReference.cache
+C:\repositorieproyecto\ProyectoFinal\BS\obj\Debug\netcoreapp3.1\BS.AssemblyInfoInputs.cache
+C:\repositorieproyecto\ProyectoFinal\BS\obj\Debug\netcoreapp3.1\BS.AssemblyInfo.cs
+C:\repositorieproyecto\ProyectoFinal\BS\obj\Debug\netcoreapp3.1\BS.csproj.CoreCompileInputs.cache
+C:\repositorieproyecto\ProyectoFinal\BS\obj\Debug\netcoreapp3.1\BS.csproj.CopyComplete
+C:\repositorieproyecto\ProyectoFinal\BS\obj\Debug\netcoreapp3.1\BS.dll
+C:\repositorieproyecto\ProyectoFinal\BS\obj\Debug\netcoreapp3.1\BS.pdb
+C:\repositorieproyecto\ProyectoFinal\BS\obj\Debug\netcoreapp3.1\BS.genruntimeconfig.cache

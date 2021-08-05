@@ -22,12 +22,32 @@ namespace FronEnd.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSession();
+            services.AddMvc(option => option.EnableEndpointRouting = false);
+
+
+
             services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseSession();
+
+            app.UseMvc(router =>
+
+            {
+
+                router.MapRoute(
+
+                name: "default",
+
+                template: "{controller=Login}/{action=Login}/{id?}");
+
+            });
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -36,6 +56,10 @@ namespace FronEnd.API
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+
+
+
+
             app.UseStaticFiles();
 
             app.UseRouting();
