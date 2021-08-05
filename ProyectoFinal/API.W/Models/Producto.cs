@@ -13,7 +13,7 @@ namespace API.W.Models
         public int CodigoBarras { get; set; }
         public DateTime FechaIngreso { get; set; }
         public string NombreProducto { get; set; }
-        public byte[] ImagenProducto { get; set; }
+        //public byte[] ImagenProducto { get; set; }
         public int CantidadProducto { get; set; }
         public int PrecioUnitario { get; set; }
         public int PrecioVenta { get; set; }
