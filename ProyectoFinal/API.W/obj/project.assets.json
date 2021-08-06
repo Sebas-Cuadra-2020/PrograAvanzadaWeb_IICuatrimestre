@@ -8670,11 +8670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\API.W\\API.W.csproj",
+      "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\API.W\\API.W.csproj",
       "projectName": "API.W",
-      "projectPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\API.W\\API.W.csproj",
+      "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\API.W\\API.W.csproj",
       "packagesPath": "C:\\Users\\picad\\.nuget\\packages\\",
-      "outputPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\API.W\\obj\\",
+      "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\API.W\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

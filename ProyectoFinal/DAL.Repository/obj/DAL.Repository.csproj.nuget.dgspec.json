@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj": {}
+    "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj": {}
   },
   "projects": {
-    "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj": {
+    "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj",
+        "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj",
         "projectName": "DAL.DO",
-        "projectPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj",
+        "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj",
         "packagesPath": "C:\\Users\\picad\\.nuget\\packages\\",
-        "outputPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.DO\\obj\\",
+        "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj": {
+    "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj",
+        "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj",
         "projectName": "DAL.EF",
-        "projectPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj",
+        "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj",
         "packagesPath": "C:\\Users\\picad\\.nuget\\packages\\",
-        "outputPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.EF\\obj\\",
+        "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -112,8 +112,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj": {
-                "projectPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj"
+              "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj": {
+                "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj"
               }
             }
           }
@@ -168,14 +168,14 @@
         }
       }
     },
-    "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj": {
+    "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj",
         "projectName": "DAL.Repository",
-        "projectPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj",
+        "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj",
         "packagesPath": "C:\\Users\\picad\\.nuget\\packages\\",
-        "outputPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.Repository\\obj\\",
+        "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -196,8 +196,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj": {
-                "projectPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj"
+              "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj": {
+                "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj"
               }
             }
           }

@@ -28,23 +28,6 @@ C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.EF\obj\Deb
 C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.dll
 C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.pdb
 C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.genruntimeconfig.cache
-<<<<<<< HEAD
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\bin\Debug\netcoreapp3.1\DAL.EF.deps.json
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\bin\Debug\netcoreapp3.1\DAL.EF.runtimeconfig.json
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\bin\Debug\netcoreapp3.1\DAL.EF.runtimeconfig.dev.json
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\bin\Debug\netcoreapp3.1\DAL.EF.dll
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\bin\Debug\netcoreapp3.1\DAL.EF.pdb
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\bin\Debug\netcoreapp3.1\DAL.DO.dll
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\bin\Debug\netcoreapp3.1\DAL.DO.pdb
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.csproj.AssemblyReference.cache
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.AssemblyInfoInputs.cache
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.AssemblyInfo.cs
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.csproj.CoreCompileInputs.cache
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.csproj.CopyComplete
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.dll
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.pdb
-C:\repositorieproyecto\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.genruntimeconfig.cache
-=======
 C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.EF\bin\Debug\netcoreapp3.1\DAL.EF.deps.json
 C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.EF\bin\Debug\netcoreapp3.1\DAL.EF.runtimeconfig.json
 C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.EF\bin\Debug\netcoreapp3.1\DAL.EF.runtimeconfig.dev.json
@@ -60,4 +43,3 @@ C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\
 C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.dll
 C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.pdb
 C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.EF\obj\Debug\netcoreapp3.1\DAL.EF.genruntimeconfig.cache
->>>>>>> ffccdef20d77639f20feedb006675dab05386e81

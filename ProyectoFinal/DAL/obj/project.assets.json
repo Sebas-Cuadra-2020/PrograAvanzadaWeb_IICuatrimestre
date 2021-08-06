@@ -5791,11 +5791,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\picad\\.nuget\\packages\\",
-      "outputPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5816,14 +5816,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj": {
-              "projectPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj"
+            "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj": {
+              "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj"
             },
-            "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj": {
-              "projectPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj"
+            "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj": {
+              "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj"
             },
-            "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj": {
-              "projectPath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj"
+            "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj": {
+              "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj"
             }
           }
         }

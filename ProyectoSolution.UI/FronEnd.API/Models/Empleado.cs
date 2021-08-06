@@ -1,8 +1,5 @@
-﻿using FronEnd.API.CustomValidation;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
 
 // Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
 // If you have enabled NRTs for your project, then un-comment the following line:
@@ -22,14 +19,7 @@ namespace FronEnd.API.Models
         public DateTime FechaIngreso { get; set; }
         public string NombreEmpleado { get; set; }
         public string ApellidoEmpleado { get; set; }
-        [DisplayName("Email")]
-        [Required(ErrorMessage = "{0} es un campo requerido")]
-        [EmailAddress(ErrorMessage = "{0} no es un campo valido")]
         public string CorreoEmpleado { get; set; }
-        [Required(ErrorMessage = "{0} es un campo requerido")]
-        [DisplayName("Contraseña")]
-
-        [ContrasenaValidate(ErrorMessage = "Contraseña no valida")]
         public string PasswordEmpleado { get; set; }
         public string Provincia { get; set; }
         public string Canton { get; set; }

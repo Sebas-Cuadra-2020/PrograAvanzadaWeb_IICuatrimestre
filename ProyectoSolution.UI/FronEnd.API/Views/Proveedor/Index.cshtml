@@ -4,81 +4,88 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Proveedores</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Ingresar nuevo proveedor</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.CedulaProveedor)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FechaIngreso)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NombreProveedor)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CorreoProveedor)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Provincia)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Canton)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Distrito)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TelefonoProveedor)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CuentaBancariaProveedor)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CedulaProveedor)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FechaIngreso)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.NombreProveedor)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CorreoProveedor)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Provincia)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Canton)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Distrito)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TelefonoProveedor)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CuentaBancariaProveedor)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.IdProveedor">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.IdProveedor">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.IdProveedor">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+<div class="card shadow mb-4">
+
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CedulaProveedor)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FechaIngreso)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.NombreProveedor)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CorreoProveedor)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Provincia)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Canton)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Distrito)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.TelefonoProveedor)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CuentaBancariaProveedor)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CedulaProveedor)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FechaIngreso)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NombreProveedor)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CorreoProveedor)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Provincia)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Canton)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Distrito)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TelefonoProveedor)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CuentaBancariaProveedor)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.IdProveedor">Editar</a> |
+                                <a asp-action="Details" asp-route-id="@item.IdProveedor">Detalle</a> |
+                                <a asp-action="Delete" asp-route-id="@item.IdProveedor">Eliminar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

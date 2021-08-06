@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nhlAjwzyCvBcJ33zt3JecUSjQduKiQTUOtws4kkkCiLaUiLaDqgoraagJRFJ9mwM3YLzgDBL9rQkNUQ6Rgri9Q==",
+  "dgSpecHash": "aMux/TF9Xc+X6cMS5q3CyRxx2rCVHuxbST+e65D0q0hDcCouF4Uy8nezU2MXpGVZmow/B2Qjjxx0eeb6lmyC6A==",
   "success": true,
-  "projectFilePath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\picad\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\picad\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LJM7kOhDt7Ef8u+4mtd4HQc0nKYaxHduuFKD8t0ruB1nAtBUiD5tlgujCn6NKdhB9LDqrtoWcG6AVwRjhQyfYA==",
+  "dgSpecHash": "Ib9onmrWPyo8erlg0e6aohDVaZi7zR8KPDRqNKX2LMbnm8ZIkOY/+Uukly25rjjBeVVWh/f/JeVtp5RoqhSRVA==",
   "success": true,
-  "projectFilePath": "C:\\RepositorioProgramacionAvanzada\\ProyectoFinal\\API.W\\API.W.csproj",
+  "projectFilePath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\API.W\\API.W.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\picad\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\picad\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
