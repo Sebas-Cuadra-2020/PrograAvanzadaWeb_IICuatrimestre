@@ -4,27 +4,29 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
-
-<div>
-    <h4>FamiliaProducto</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.NombreFamiliaProducto)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.NombreFamiliaProducto)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.CodigoCabys)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.CodigoCabys)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.IdFamiliaProducto">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<div class="col-lg-6">
+    <div class="card mb-4 py-3 border-left-primary">
+        <div class="card-body">
+            <h4>FamiliaProducto</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.NombreFamiliaProducto)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.NombreFamiliaProducto)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.CodigoCabys)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.CodigoCabys)
+                </dd>
+            </dl>
+        </div>
+        <div>
+            <a asp-action="Edit" asp-route-id="@Model.IdFamiliaProducto">Editar</a> |
+            <a asp-action="Index">Volver a la lista</a>
+        </div>
+    </div>
 </div>
