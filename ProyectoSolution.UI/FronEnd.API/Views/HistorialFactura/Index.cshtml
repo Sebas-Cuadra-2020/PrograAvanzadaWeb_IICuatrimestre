@@ -48,10 +48,10 @@
                                 @Html.DisplayFor(modelItem => item.TotalFactura)
                             </td>
                             <td>
-                                @Html.DisplayFor(modelItem => item.IdClienteNavigation.Canton)
+                                @Html.DisplayFor(modelItem => item.IdClienteNavigation.NombreCliente)
                             </td>
                             <td>
-                                @Html.DisplayFor(modelItem => item.IdEmpleadoNavigation.ApellidoEmpleado)
+                                @Html.DisplayFor(modelItem => item.IdEmpleadoNavigation.NombreEmpleado)
                             </td>
                             <td>
                                 <a asp-action="Edit" asp-route-id="@item.IdFactura">Editar</a> |

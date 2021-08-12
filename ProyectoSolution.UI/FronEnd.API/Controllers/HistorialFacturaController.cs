@@ -12,6 +12,8 @@ namespace FronEnd.API.Controllers
 {
     public class HistorialFacturaController : Controller
     {
+        ClienteServices clienteS = new ClienteServices();
+        EmpleadoServices empleadoS = new EmpleadoServices();
 
         // GET: HistorialFacturas
         public async Task<IActionResult> Index()
@@ -54,8 +56,8 @@ namespace FronEnd.API.Controllers
         // GET: HistorialFacturas/Create
         public IActionResult Create()
         {
-            ViewData["IdCliente"] = new SelectList(GetAll(), "IdCliente", "Canton");
-            ViewData["IdEmpleado"] = new SelectList(GetAll(), "IdEmpleado", "ApellidoEmpleado");
+            ViewData["IdCliente"] = new SelectList(clienteS.GetAll(), "IdCliente", "NombreCliente");
+            ViewData["IdEmpleado"] = new SelectList(empleadoS.GetAll(), "IdEmpleado", "NombreEmpleado");
             return View();
         }
 

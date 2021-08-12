@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Net.Http;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using FronEnd.API.Servicios;
 
 namespace FronEnd.API.Controllers
 {
     public class EmpleadoController : Controller
     {
-      
-      
+        EmpleadoServices empleadoS = new EmpleadoServices();
+       RolEmpleadoServices rolEmpleados = new RolEmpleadoServices();
+       
 
         // GET: Empleados
         public async Task<IActionResult> Index()
@@ -42,7 +44,7 @@ namespace FronEnd.API.Controllers
                 return NotFound();
             }
 
-            var empleado = GetById(id);
+            var empleado = empleadoS.GetById(id);
             if (empleado == null)
             {
                 return NotFound();
@@ -54,7 +56,7 @@ namespace FronEnd.API.Controllers
         // GET: Empleados/Create
         public IActionResult Create()
         {
-            ViewData["IdEmpleado"] = new SelectList(GetAll(), "IdEmpleado", "NombreEmpleado");
+            ViewData["IdRol"] = new SelectList(rolEmpleados.GetAll(), "IdRol", "NombreRol");
             return View();
         }
 
@@ -82,7 +84,7 @@ namespace FronEnd.API.Controllers
                     }
                 }
             }
-            ViewData["IdEmpleado"] = new SelectList(GetAll(), "IdEmpleado", "NombreEmpleado", empleado.IdEmpleado);
+            ViewData["IdEmpleado"] = new SelectList(empleadoS.GetAll(), "IdEmpleado", "NombreEmpleado", empleado.IdEmpleado);
             return View(empleado);
         }
 
@@ -94,12 +96,12 @@ namespace FronEnd.API.Controllers
                 return NotFound();
             }
 
-            var empleado = GetById(id);
+            var empleado = empleadoS.GetById(id);
             if (empleado == null)
             {
                 return NotFound();
             }
-            ViewData["IdEmpleado"] = new SelectList(GetAll(), "IdEmpleado", "NombreEmpleado", empleado.IdEmpleado);
+            ViewData["IdEmpleado"] = new SelectList(rolEmpleados.GetAll(), "IdEmpleado", "NombreEmpleado", empleado.IdEmpleado);
             return View(empleado);
         }
 
@@ -136,7 +138,7 @@ namespace FronEnd.API.Controllers
                 }
                 catch (Exception)
                 {
-                    var aux2 = GetById(id);
+                    var aux2 = empleadoS.GetById(id);
                     if (aux2 == null)
                     {
                         return NotFound();
@@ -148,7 +150,7 @@ namespace FronEnd.API.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdEmpleado"] = new SelectList(GetAll(), "IdEmpleado", "NombreEmpleado", empleado.IdEmpleado);
+            ViewData["IdEmpleado"] = new SelectList(empleadoS.GetAll(), "IdEmpleado", "NombreEmpleado", empleado.IdEmpleado);
             return View(empleado);
         }
 
@@ -160,7 +162,7 @@ namespace FronEnd.API.Controllers
                 return NotFound();
             }
 
-            var empleado = GetById(id);
+            var empleado = empleadoS.GetById(id);
 
             if (empleado == null)
             {
@@ -175,7 +177,7 @@ namespace FronEnd.API.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var empleado = GetById(id);
+            var empleado = empleadoS.GetById(id);
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(Program.baseurl);
@@ -195,69 +197,7 @@ namespace FronEnd.API.Controllers
         //{
         //    return _context.Empleado.Any(e => e.IdEmpleado == id);
         //}
-
-        public Models.Empleado GetById(int? id)
-        {
-            Models.Empleado aux = new Models.Empleado();
-            using (var cl = new HttpClient())
-            {
-                cl.BaseAddress = new Uri(Program.baseurl);
-                cl.DefaultRequestHeaders.Clear();
-                cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                //HttpResponseMessage res = await cl.GetAsync("api/Pais/5?"+id);
-                HttpResponseMessage res = cl.GetAsync("api/Empleado/" + id).Result;
-
-                if (res.IsSuccessStatusCode)
-                {
-                    var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<Models.Empleado>(auxres);
-                }
-            }
-            return aux;
-        }
-
-        public List<Models.Empleado> GetAll()
-        {
-            List<Models.Empleado> aux = new List<Models.Empleado>();
-            using (var cl = new HttpClient())
-            {
-                cl.BaseAddress = new Uri(Program.baseurl);
-                cl.DefaultRequestHeaders.Clear();
-                cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = cl.GetAsync("api/empleado").Result;
-
-                if (res.IsSuccessStatusCode)
-                {
-                    var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<List<Models.Empleado>>(auxres);
-                }
-            }
-            return aux;
-        }
-
-        public async Task<List<Models.Empleado>> GetAllAsync()
-        {
-            List<Models.Empleado> aux = new List<Models.Empleado>();
-            using (var cl = new HttpClient())
-            {
-                cl.BaseAddress = new Uri(Program.baseurl);
-                cl.DefaultRequestHeaders.Clear();
-                cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = await cl.GetAsync("api/Empleado");
-
-                if (res.IsSuccessStatusCode)
-                {
-                    var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<List<Models.Empleado>>(auxres);
-                }
-            }
-            return aux;
-        }
-
-
-
-
-
+       
 
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\picad\\Desktop\\Proyecto programacion\\10-8-21\\ProyectoSolution.UI\\FrontEnd.W\\FrontEnd.W.csproj": {}
+    "C:\\Users\\picad\\Desktop\\Proyecto programacion\\11-8-21\\ProyectoSolution.UI\\FrontEnd.W\\FrontEnd.W.csproj": {}
   },
   "projects": {
-    "C:\\Users\\picad\\Desktop\\Proyecto programacion\\10-8-21\\ProyectoSolution.UI\\FrontEnd.W\\FrontEnd.W.csproj": {
+    "C:\\Users\\picad\\Desktop\\Proyecto programacion\\11-8-21\\ProyectoSolution.UI\\FrontEnd.W\\FrontEnd.W.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\10-8-21\\ProyectoSolution.UI\\FrontEnd.W\\FrontEnd.W.csproj",
+        "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\11-8-21\\ProyectoSolution.UI\\FrontEnd.W\\FrontEnd.W.csproj",
         "projectName": "FrontEnd.W",
-        "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\10-8-21\\ProyectoSolution.UI\\FrontEnd.W\\FrontEnd.W.csproj",
+        "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\11-8-21\\ProyectoSolution.UI\\FrontEnd.W\\FrontEnd.W.csproj",
         "packagesPath": "C:\\Users\\picad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\10-8-21\\ProyectoSolution.UI\\FrontEnd.W\\obj\\",
+        "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\11-8-21\\ProyectoSolution.UI\\FrontEnd.W\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

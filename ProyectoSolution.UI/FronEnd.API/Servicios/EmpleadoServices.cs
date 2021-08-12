@@ -1,69 +1,67 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using System.Net.Http;
-using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace FronEnd.API.Servicios
 {
-    public class HistorialFactura
+    public class EmpleadoServices
     {
-       public Models.HistorialFactura GetById(int? id)
+        public Models.Empleado GetById(int? id)
         {
-            Models.HistorialFactura aux = new Models.HistorialFactura();
+            Models.Empleado aux = new Models.Empleado();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(Program.baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
                 //HttpResponseMessage res = await cl.GetAsync("api/Pais/5?"+id);
-                HttpResponseMessage res = cl.GetAsync("api/HistorialFactura/" + id).Result;
+                HttpResponseMessage res = cl.GetAsync("api/Empleado/" + id).Result;
 
                 if (res.IsSuccessStatusCode)
                 {
                     var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<Models.HistorialFactura>(auxres);
+                    aux = JsonConvert.DeserializeObject<Models.Empleado>(auxres);
                 }
             }
             return aux;
         }
 
-        public List<Models.HistorialFactura> GetAll()
+        public List<Models.Empleado> GetAll()
         {
-            List<Models.HistorialFactura> aux = new List<Models.HistorialFactura>();
+            List<Models.Empleado> aux = new List<Models.Empleado>();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(Program.baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = cl.GetAsync("api/HistorialFactura").Result;
+                HttpResponseMessage res = cl.GetAsync("api/empleado").Result;
 
                 if (res.IsSuccessStatusCode)
                 {
                     var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<List<Models.HistorialFactura>>(auxres);
+                    aux = JsonConvert.DeserializeObject<List<Models.Empleado>>(auxres);
                 }
             }
             return aux;
         }
 
-        public async Task<List<Models.HistorialFactura>> GetAllAsync()
+        public async Task<List<Models.Empleado>> GetAllAsync()
         {
-            List<Models.HistorialFactura> aux = new List<Models.HistorialFactura>();
+            List<Models.Empleado> aux = new List<Models.Empleado>();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(Program.baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = await cl.GetAsync("api/HistorialFactura");
+                HttpResponseMessage res = await cl.GetAsync("api/Empleado");
 
                 if (res.IsSuccessStatusCode)
                 {
                     var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<List<Models.HistorialFactura>>(auxres);
+                    aux = JsonConvert.DeserializeObject<List<Models.Empleado>>(auxres);
                 }
             }
             return aux;

@@ -2240,11 +2240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\10-8-21\\ProyectoSolution.UI\\FronEnd.API\\FronEnd.API.csproj",
+      "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\11-8-21\\ProyectoSolution.UI\\FronEnd.API\\FronEnd.API.csproj",
       "projectName": "FronEnd.API",
-      "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\10-8-21\\ProyectoSolution.UI\\FronEnd.API\\FronEnd.API.csproj",
+      "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\11-8-21\\ProyectoSolution.UI\\FronEnd.API\\FronEnd.API.csproj",
       "packagesPath": "C:\\Users\\picad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\10-8-21\\ProyectoSolution.UI\\FronEnd.API\\obj\\",
+      "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\11-8-21\\ProyectoSolution.UI\\FronEnd.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

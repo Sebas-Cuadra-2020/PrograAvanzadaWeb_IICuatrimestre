@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Net.Http;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using FronEnd.API.Servicios;
 
 namespace FronEnd.API.Controllers
 {
     public class ProductoController : Controller
     {
+        ProveedorServices proveedor = new ProveedorServices();
+        FamiliaProductoServices familiaP = new FamiliaProductoServices();
         public async Task<IActionResult> Index()
         {
             List<Models.Producto> aux = new List<Models.Producto>();
@@ -51,8 +54,8 @@ namespace FronEnd.API.Controllers
         // GET: Productoes/Create
         public IActionResult Create()
         {
-            ViewData["IdFamiliaProducto"] = new SelectList(GetAll(), "IdFamiliaProducto", "NombreFamiliaProducto");
-            ViewData["IdProveedor"] = new SelectList(GetAll(), "IdProveedor", "Canton");
+            ViewData["IdFamiliaProducto"] = new SelectList(familiaP.GetAll(), "IdFamiliaProducto", "NombreFamiliaProducto");
+            ViewData["IdProveedor"] = new SelectList(proveedor.GetAll(), "IdProveedor", "Canton");
             return View();
         }
 
@@ -223,7 +226,7 @@ namespace FronEnd.API.Controllers
                 cl.BaseAddress = new Uri(Program.baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = cl.GetAsync("api/GroupInvitations").Result;
+                HttpResponseMessage res = cl.GetAsync("api/Producto").Result;
 
                 if (res.IsSuccessStatusCode)
                 {

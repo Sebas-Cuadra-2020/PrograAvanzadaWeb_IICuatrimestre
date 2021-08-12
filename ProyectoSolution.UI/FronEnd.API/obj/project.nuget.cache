@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s+YoO5UP70tagZO0vCo22k0u7OqiLflc2BKkrpES7JpNZLbiHn0962sLW6cIggNBJytKub39yPvR99DxlKabVg==",
+  "dgSpecHash": "j/b4sXJhjZqx3cE4Y+J6ChMiPYWsAmja1vfyTpqEteQvogXjf+NkOoaKU7lMr6cxpZ8feP9FHP6x0rMJOAG7Cg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\10-8-21\\ProyectoSolution.UI\\FronEnd.API\\FronEnd.API.csproj",
+  "projectFilePath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\11-8-21\\ProyectoSolution.UI\\FronEnd.API\\FronEnd.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\picad\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\picad\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
