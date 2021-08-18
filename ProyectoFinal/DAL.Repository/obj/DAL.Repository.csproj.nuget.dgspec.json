@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj": {}
+    "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj": {
+    "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj",
         "projectName": "DAL.DO",
-        "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj",
-        "packagesPath": "C:\\Users\\picad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.DO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\picad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,25 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj": {
+    "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj",
         "projectName": "DAL.EF",
-        "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj",
-        "packagesPath": "C:\\Users\\picad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.EF\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\picad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,8 +104,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj": {
-                "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj"
+              "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj": {
+                "projectPath": "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.DO\\DAL.DO.csproj"
               }
             }
           }
@@ -164,25 +156,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj": {
+    "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj",
         "projectName": "DAL.Repository",
-        "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj",
-        "packagesPath": "C:\\Users\\picad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.Repository\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.Repository\\DAL.Repository.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\picad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -196,8 +184,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj": {
-                "projectPath": "C:\\Users\\picad\\Desktop\\Proyecto programacion\\5-8-21\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj"
+              "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj": {
+                "projectPath": "C:\\Users\\sebas\\Desktop\\PAW\\PrograAvanzadaWeb_IICuatrimestre\\ProyectoFinal\\DAL.EF\\DAL.EF.csproj"
               }
             }
           }
@@ -248,7 +236,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

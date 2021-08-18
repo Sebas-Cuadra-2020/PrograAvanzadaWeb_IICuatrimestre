@@ -4,8 +4,8 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
+<h1>Clientes</h1>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <p>
     <a asp-action="Create">Ingresar nuevo Cliente</a>
 </p>
@@ -17,30 +17,39 @@
                 <thead>
                     <tr>
                         <th>
-                           Cedula Cliente
+                           Cedula
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.FechaIngreso)
+                            Fecha Ingreso
+                            
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.NombreCliente)
+                            Nombre 
+                            
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.CorreoEmpleado)
+                            Correo
+                           
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.Provincia)
+                            Provincia
+                           
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.Canton)
+                            Canton
+                          
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.Distrito)
+                            Distrito
+                         
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.TelefonoEmpleado)
+                            Telefono
+                          
                         </th>
-                        <th></th>
+                        <th>
+                            Accion
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -72,9 +81,12 @@
                                 @Html.DisplayFor(modelItem => item.TelefonoEmpleado)
                             </td>
                             <td>
+
+
                                 <a asp-action="Edit" asp-route-id="@item.IdCliente">Editar</a> |
                                 <a asp-action="Details" asp-route-id="@item.IdCliente">Detalle</a> |
                                 <a asp-action="Delete" asp-route-id="@item.IdCliente">Eliminar</a>
+                            
                             </td>
                         </tr>
                     }
