@@ -1,0 +1,91 @@
+﻿@model FronEnd.API.Models.Empleado
+
+@{ ViewData["Title"] = "Edit"; }
+@using Microsoft.AspNetCore.Http
+
+@{ var vUser = Context.Session.GetString("_User");<!--Capturar la sesión en la variable vUser--> }
+@if (vUser != null&& Context.Session.GetString("Rol") == "1")
+{
+<h1> Actualizar Datos</h1>
+
+            <h4>Datos Empleado</h4>
+                        <hr />
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <form asp-action="Edit">
+                                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                                <input type="hidden" asp-for="IdEmpleado" />
+                                                <div class="form-group">
+                                                    <label asp-for="CedulaEmpleado" class="control-label"></label>
+                                                    <input asp-for="CedulaEmpleado" class="form-control" />
+                                                    <span asp-validation-for="CedulaEmpleado" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="FechaIngreso" class="control-label"></label>
+                                                    <input asp-for="FechaIngreso" class="form-control" />
+                                                    <span asp-validation-for="FechaIngreso" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="NombreEmpleado" class="control-label"></label>
+                                                    <input asp-for="NombreEmpleado" class="form-control" />
+                                                    <span asp-validation-for="NombreEmpleado" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="ApellidoEmpleado" class="control-label"></label>
+                                                    <input asp-for="ApellidoEmpleado" class="form-control" />
+                                                    <span asp-validation-for="ApellidoEmpleado" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="CorreoEmpleado" class="control-label"></label>
+                                                    <input asp-for="CorreoEmpleado" class="form-control" />
+                                                    <span asp-validation-for="CorreoEmpleado" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="PasswordEmpleado" class="control-label"></label>
+                                                    <input asp-for="PasswordEmpleado" class="form-control" />
+                                                    <span asp-validation-for="PasswordEmpleado" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="Provincia" class="control-label"></label>
+                                                    <input asp-for="Provincia" class="form-control" />
+                                                    <span asp-validation-for="Provincia" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="Canton" class="control-label"></label>
+                                                    <input asp-for="Canton" class="form-control" />
+                                                    <span asp-validation-for="Canton" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="Distrito" class="control-label"></label>
+                                                    <input asp-for="Distrito" class="form-control" />
+                                                    <span asp-validation-for="Distrito" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="TelefonoEmpleado" class="control-label"></label>
+                                                    <input asp-for="TelefonoEmpleado" class="form-control" />
+                                                    <span asp-validation-for="TelefonoEmpleado" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="IdRol" class="control-label"></label>
+                                                    <select asp-for="IdRol" class="form-control" asp-items="ViewBag.IdRol"></select>
+                                                    <span asp-validation-for="IdRol" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="submit" value="Actualizar" class="btn btn-primary" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                                    <div>
+                                                        <a asp-action="Index">Ver Empleados</a>
+                                                    </div>
+
+                                                                    @section Scripts {
+                                                                        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+                                                                    } }
+                                                                                else
+                                                                                {
+                                                                    <h2>No Tienes acceso a esta Pagina</h2>}
+
+

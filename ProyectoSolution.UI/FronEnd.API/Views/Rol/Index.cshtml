@@ -1,0 +1,41 @@
+﻿@model IEnumerable<FronEnd.API.Models.RolEmpleado>
+
+@{ ViewData["Title"] = "Index"; }
+
+<h1>Puestos</h1>
+
+<p>
+    <a asp-action="Create">Ingresar nuevo Puesto</a>
+</p>
+<div class="card shadow mb-4">
+
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+          
+                        <th>
+                            @Html.DisplayNameFor(model => model.NombreRol)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreRol)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdRol">Editar </a> |
+                <a asp-action="Details" asp-route-id="@item.IdRol">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdRol">Eliminar</a>
+            </td>
+        </tr>}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

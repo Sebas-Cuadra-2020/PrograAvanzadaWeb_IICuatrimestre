@@ -1,0 +1,62 @@
+﻿@model IEnumerable<FronEnd.API.Models.FamiliaProducto>
+
+@{ ViewData["Title"] = "Index"; }
+@using Microsoft.AspNetCore.Http
+
+@{ var vUser = Context.Session.GetString("_User");<!--Capturar la sesión en la variable vUser--> }
+@if (vUser != null && Context.Session.GetString("Rol") == "1")
+{
+<h1>Familia Producto</h1>
+
+                <p>
+                    <a asp-action="Create">Ingresar nuevo Familia Producto</a>
+                </p>
+
+                                <div class="card shadow mb-4">
+
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>
+                                                            Familia
+
+                                                        </th>
+                                                        <th>
+                                                            CABYS
+
+                                                        </th>
+                                                        <th>
+                                                            Accion
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @foreach (var item in Model)
+                                                    {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.NombreFamiliaProducto)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.CodigoCabys)
+                                        </td>
+                                        <td>
+                                            <a asp-action="Edit" asp-route-id="@item.IdFamiliaProducto">Editar</a> |
+                                            <a asp-action="Details" asp-route-id="@item.IdFamiliaProducto">Detalle</a> |
+                                            <a asp-action="Delete" asp-route-id="@item.IdFamiliaProducto">Eliminar</a>
+                                        </td>
+                                    </tr>
+}
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div> }
+                                            else
+                                            {
+                                <h2>No tienes acceso a esta pagina</h2>}
+
+
+

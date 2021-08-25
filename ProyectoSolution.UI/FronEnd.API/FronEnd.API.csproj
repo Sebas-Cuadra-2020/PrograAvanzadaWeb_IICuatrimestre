@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Views\Cliente\Create.cshtml" />
+    <None Include="Views\Cliente\Delete.cshtml" />
+    <None Include="Views\Cliente\Details.cshtml" />
+    <None Include="Views\Cliente\Edit.cshtml" />
+    <None Include="Views\Cliente\Index.cshtml" />
+    <None Include="Views\Empleado\Create.cshtml" />
+    <None Include="Views\Empleado\Delete.cshtml" />
+    <None Include="Views\Empleado\Details.cshtml" />
+    <None Include="Views\Empleado\Edit.cshtml" />
+    <None Include="Views\Empleado\Index.cshtml" />
+    <None Include="Views\FamiliaProducto\Create.cshtml" />
+    <None Include="Views\FamiliaProducto\Delete.cshtml" />
+    <None Include="Views\FamiliaProducto\Details.cshtml" />
+    <None Include="Views\FamiliaProducto\Edit.cshtml" />
+    <None Include="Views\FamiliaProducto\Index.cshtml" />
+    <None Include="Views\HistorialFactura\Create.cshtml" />
+    <None Include="Views\HistorialFactura\Delete.cshtml" />
+    <None Include="Views\HistorialFactura\Details.cshtml" />
+    <None Include="Views\HistorialFactura\Edit.cshtml" />
+    <None Include="Views\HistorialFactura\Index.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Login\Login.cshtml" />
+    <None Include="Views\Producto\Create.cshtml" />
+    <None Include="Views\Producto\Delete.cshtml" />
+    <None Include="Views\Producto\Details.cshtml" />
+    <None Include="Views\Producto\Edit.cshtml" />
+    <None Include="Views\Producto\Index.cshtml" />
+    <None Include="Views\Proveedor\Create.cshtml" />
+    <None Include="Views\Proveedor\Delete.cshtml" />
+    <None Include="Views\Proveedor\Details.cshtml" />
+    <None Include="Views\Proveedor\Edit.cshtml" />
+    <None Include="Views\Proveedor\Index.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_Layout - Copy.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>

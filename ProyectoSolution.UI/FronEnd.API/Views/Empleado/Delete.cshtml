@@ -1,0 +1,96 @@
+﻿@model FronEnd.API.Models.Empleado
+
+@{ ViewData["Title"] = "Delete"; }
+@using Microsoft.AspNetCore.Http
+
+@{ var vUser = Context.Session.GetString("_User");<!--Capturar la sesión en la variable vUser--> }
+@if (vUser != null && Context.Session.GetString("Rol") == "1")
+{
+
+<h1>Eliminar Empleado</h1>
+
+                <h3>Esta seguro de eliminar este Empleado?</h3>
+                                <div>
+                                    <h4>Empleado</h4>
+                                    <hr />
+                                    <dl class="row">
+                                        <dt class="col-sm-2">
+                                            @Html.DisplayNameFor(model => model.CedulaEmpleado)
+                                        </dt>
+                                        <dd class="col-sm-10">
+                                            @Html.DisplayFor(model => model.CedulaEmpleado)
+                                        </dd>
+                                        <dt class="col-sm-2">
+                                            @Html.DisplayNameFor(model => model.FechaIngreso)
+                                        </dt>
+                                        <dd class="col-sm-10">
+                                            @Html.DisplayFor(model => model.FechaIngreso)
+                                        </dd>
+                                        <dt class="col-sm-2">
+                                            @Html.DisplayNameFor(model => model.NombreEmpleado)
+                                        </dt>
+                                        <dd class="col-sm-10">
+                                            @Html.DisplayFor(model => model.NombreEmpleado)
+                                        </dd>
+                                        <dt class="col-sm-2">
+                                            @Html.DisplayNameFor(model => model.ApellidoEmpleado)
+                                        </dt>
+                                        <dd class="col-sm-10">
+                                            @Html.DisplayFor(model => model.ApellidoEmpleado)
+                                        </dd>
+                                        <dt class="col-sm-2">
+                                            @Html.DisplayNameFor(model => model.CorreoEmpleado)
+                                        </dt>
+                                        <dd class="col-sm-10">
+                                            @Html.DisplayFor(model => model.CorreoEmpleado)
+                                        </dd>
+                                        <dt class="col-sm-2">
+                                            @Html.DisplayNameFor(model => model.PasswordEmpleado)
+                                        </dt>
+                                        <dd class="col-sm-10">
+                                            @Html.DisplayFor(model => model.PasswordEmpleado)
+                                        </dd>
+                                        <dt class="col-sm-2">
+                                            @Html.DisplayNameFor(model => model.Provincia)
+                                        </dt>
+                                        <dd class="col-sm-10">
+                                            @Html.DisplayFor(model => model.Provincia)
+                                        </dd>
+                                        <dt class="col-sm-2">
+                                            @Html.DisplayNameFor(model => model.Canton)
+                                        </dt>
+                                        <dd class="col-sm-10">
+                                            @Html.DisplayFor(model => model.Canton)
+                                        </dd>
+                                        <dt class="col-sm-2">
+                                            @Html.DisplayNameFor(model => model.Distrito)
+                                        </dt>
+                                        <dd class="col-sm-10">
+                                            @Html.DisplayFor(model => model.Distrito)
+                                        </dd>
+                                        <dt class="col-sm-2">
+                                            @Html.DisplayNameFor(model => model.TelefonoEmpleado)
+                                        </dt>
+                                        <dd class="col-sm-10">
+                                            @Html.DisplayFor(model => model.TelefonoEmpleado)
+                                        </dd>
+                                        <dt class="col-sm-2">
+                                            @Html.DisplayNameFor(model => model.IdRolNavigation)
+                                        </dt>
+                                        <dd class="col-sm-10">
+                                            @Html.DisplayFor(model => model.IdRolNavigation.NombreRol)
+                                        </dd>
+                                    </dl>
+
+                                    <form asp-action="Delete">
+                                        <input type="hidden" asp-for="IdEmpleado" />
+                                        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+                                        <a asp-action="Index">Back to List</a>
+                                    </form>
+                                </div> }
+                                            else
+                                            {
+                                <h2>No tienes acceso a esta pagina</h2>}
+
+
+

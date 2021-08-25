@@ -1,0 +1,126 @@
+﻿@model IEnumerable<FronEnd.API.Models.Empleado>
+
+@{ ViewData["Title"] = "Index"; }
+
+@using Microsoft.AspNetCore.Http
+
+@{ var vUser = Context.Session.GetString("_User");<!--Capturar la sesión en la variable vUser--> }
+@if (vUser != null && Context.Session.GetString("Rol") == "1")
+{
+
+
+<h1>Empleados</h1>
+
+                <p>
+                    <a asp-action="Create">Ingresar nuevo Empleado</a>
+                </p>
+                                <div class="card shadow mb-4">
+
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>
+                                                            Cedula
+
+                                                        </th>
+                                                        <th>
+                                                            Fecha Ingreso
+
+                                                        </th>
+                                                        <th>
+                                                            Nombre
+
+                                                        </th>
+                                                        <th>
+                                                            Apellido
+
+                                                        </th>
+                                                        <th>
+                                                            Correo
+
+                                                        </th>
+                                                        <th>
+                                                            Contraseña
+
+                                                        </th>
+                                                        <th>
+                                                            Provincia
+
+                                                        </th>
+                                                        <th>
+                                                            Canton
+
+                                                        </th>
+                                                        <th>
+                                                            Distrito
+
+                                                        </th>
+                                                        <th>
+                                                            Telefono
+
+                                                        </th>
+                                                        <th>
+                                                            Rol Empleado
+
+                                                        </th>
+                                                        <th>
+                                                            Accion
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @foreach (var item in Model)
+                                                    {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.CedulaEmpleado)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.FechaIngreso)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.NombreEmpleado)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.ApellidoEmpleado)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.CorreoEmpleado)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.PasswordEmpleado)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Provincia)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Canton)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Distrito)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TelefonoEmpleado)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.IdRolNavigation.NombreRol)
+                                        </td>
+                                        <td>
+                                            <a asp-action="Edit" asp-route-id="@item.IdEmpleado">Editar</a> |
+                                            <a asp-action="Details" asp-route-id="@item.IdEmpleado">Detalle</a> |
+                                            <a asp-action="Delete" asp-route-id="@item.IdEmpleado">Eliminar</a>
+                                        </td>
+                                    </tr>
+}
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div> }
+                                            else
+                                            {
+                                <h2>No Tienes Acceso a Esta Pagina</h2>}
+
+

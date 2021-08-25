@@ -1,0 +1,43 @@
+﻿@model FronEnd.API.Models.FamiliaProducto
+
+@{ ViewData["Title"] = "Delete"; }
+@using Microsoft.AspNetCore.Http
+
+@{ var vUser = Context.Session.GetString("_User");<!--Capturar la sesión en la variable vUser--> }
+@if (vUser != null && Context.Session.GetString("Rol") == "1")
+{
+
+
+<div>
+    <h4>Familia Producto</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NombreFamiliaProducto)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NombreFamiliaProducto)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CodigoCabys)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CodigoCabys)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdFamiliaProducto" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index">Ver Familias Productos</a>
+    </form>
+</div> }
+            else
+            {
+<h2>No teienes acceso a esta pagina </h2>}
+
+
+
+<h1>Eliminar Familia Producto</h1>
+
+<h3>Esta seguro que desea eliminar este Familia Producto?</h3>

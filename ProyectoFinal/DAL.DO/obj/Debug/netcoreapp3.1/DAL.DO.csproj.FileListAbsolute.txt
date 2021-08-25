@@ -1,0 +1,60 @@
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.deps.json
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.runtimeconfig.json
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.runtimeconfig.dev.json
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.dll
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.csproj.AssemblyReference.cache
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.AssemblyInfoInputs.cache
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.AssemblyInfo.cs
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.csproj.CoreCompileInputs.cache
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.dll
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\Users\picad\Desktop\Proyecto programacion\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.genruntimeconfig.cache
+C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.deps.json
+C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.runtimeconfig.json
+C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.runtimeconfig.dev.json
+C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.dll
+C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.csproj.AssemblyReference.cache
+C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.AssemblyInfoInputs.cache
+C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.AssemblyInfo.cs
+C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.csproj.CoreCompileInputs.cache
+C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.dll
+C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\Users\picad\Desktop\Proyecto programacion\4-8-21\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.genruntimeconfig.cache
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.deps.json
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.runtimeconfig.json
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.runtimeconfig.dev.json
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.dll
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.csproj.AssemblyReference.cache
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.AssemblyInfoInputs.cache
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.AssemblyInfo.cs
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.csproj.CoreCompileInputs.cache
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.dll
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\RepositorioProgramacionAvanzada\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.genruntimeconfig.cache
+C:\Users\sebas\Desktop\PAW\PrograAvanzadaWeb_IICuatrimestre\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.deps.json
+C:\Users\sebas\Desktop\PAW\PrograAvanzadaWeb_IICuatrimestre\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.runtimeconfig.json
+C:\Users\sebas\Desktop\PAW\PrograAvanzadaWeb_IICuatrimestre\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.runtimeconfig.dev.json
+C:\Users\sebas\Desktop\PAW\PrograAvanzadaWeb_IICuatrimestre\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.dll
+C:\Users\sebas\Desktop\PAW\PrograAvanzadaWeb_IICuatrimestre\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\Users\sebas\Desktop\PAW\PrograAvanzadaWeb_IICuatrimestre\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\PAW\PrograAvanzadaWeb_IICuatrimestre\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.AssemblyInfoInputs.cache
+C:\Users\sebas\Desktop\PAW\PrograAvanzadaWeb_IICuatrimestre\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.AssemblyInfo.cs
+C:\Users\sebas\Desktop\PAW\PrograAvanzadaWeb_IICuatrimestre\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\PAW\PrograAvanzadaWeb_IICuatrimestre\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.dll
+C:\Users\sebas\Desktop\PAW\PrograAvanzadaWeb_IICuatrimestre\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\Users\sebas\Desktop\PAW\PrograAvanzadaWeb_IICuatrimestre\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.genruntimeconfig.cache
+C:\Users\Valery\Desktop\YARIELA\PROYECTO PROGRAMACION\PrograAvanzadaWeb_IICuatrimestre-master\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.deps.json
+C:\Users\Valery\Desktop\YARIELA\PROYECTO PROGRAMACION\PrograAvanzadaWeb_IICuatrimestre-master\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.runtimeconfig.json
+C:\Users\Valery\Desktop\YARIELA\PROYECTO PROGRAMACION\PrograAvanzadaWeb_IICuatrimestre-master\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.runtimeconfig.dev.json
+C:\Users\Valery\Desktop\YARIELA\PROYECTO PROGRAMACION\PrograAvanzadaWeb_IICuatrimestre-master\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.dll
+C:\Users\Valery\Desktop\YARIELA\PROYECTO PROGRAMACION\PrograAvanzadaWeb_IICuatrimestre-master\ProyectoFinal\DAL.DO\bin\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\Users\Valery\Desktop\YARIELA\PROYECTO PROGRAMACION\PrograAvanzadaWeb_IICuatrimestre-master\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.csprojAssemblyReference.cache
+C:\Users\Valery\Desktop\YARIELA\PROYECTO PROGRAMACION\PrograAvanzadaWeb_IICuatrimestre-master\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.AssemblyInfoInputs.cache
+C:\Users\Valery\Desktop\YARIELA\PROYECTO PROGRAMACION\PrograAvanzadaWeb_IICuatrimestre-master\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.AssemblyInfo.cs
+C:\Users\Valery\Desktop\YARIELA\PROYECTO PROGRAMACION\PrograAvanzadaWeb_IICuatrimestre-master\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.csproj.CoreCompileInputs.cache
+C:\Users\Valery\Desktop\YARIELA\PROYECTO PROGRAMACION\PrograAvanzadaWeb_IICuatrimestre-master\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.dll
+C:\Users\Valery\Desktop\YARIELA\PROYECTO PROGRAMACION\PrograAvanzadaWeb_IICuatrimestre-master\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.pdb
+C:\Users\Valery\Desktop\YARIELA\PROYECTO PROGRAMACION\PrograAvanzadaWeb_IICuatrimestre-master\ProyectoFinal\DAL.DO\obj\Debug\netcoreapp3.1\DAL.DO.genruntimeconfig.cache
